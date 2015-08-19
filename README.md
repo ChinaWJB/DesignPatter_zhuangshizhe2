@@ -1,2 +1,28 @@
 # DesignPatter_zhuangshizhe2
-加入了大小
+<html>
+  <body>
+    <h1>加入大，中，小杯</h1>
+  </body>
+  <p>
+    <h5>切记</h5>
+    多重修饰的时候，第二次以后的修饰者会冲掉之前修饰者对父类变量（size)的赋值,两种方法：<br>
+    (1)在修饰者中对要调用的超类的方法重写；<br>
+    (2)将超类中被修饰者调用的方法设置成static类型<br>
+  </p>
+  <p>
+    <h5>各种调料中</h5>
+    各种调料必须重载getSize()方法，因为传进来的beverage可能是另外一种材料，若不重载，cost中的beverage.getSize()调用的是Beverage的方法，而父类方法中的size没有值
+  </p>
+  <p>
+    <h5>得到类名</h5>
+    getclass().getname()得到的是连包的名字，需要分离<br>
+  </p>
+  <p>
+    <h5>字符串判等</h5>
+    字符串的判断相等只能用.equals()方法<br>
+  </p>
+  <p>
+    <h5>设置double类型的精度，两种方法：</h5>
+    参考com.wjb.test包内文件<br>
+  </p>
+</html>
