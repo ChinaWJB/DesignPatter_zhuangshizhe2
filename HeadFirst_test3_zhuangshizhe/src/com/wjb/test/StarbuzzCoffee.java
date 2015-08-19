@@ -7,9 +7,8 @@ import com.wjb.bzsz.Beverage;
 import com.wjb.bzsz.Size;
 import com.wjb.condiment_zsz.*;
 
-
-
 /**
+ * 已经被clone到了eclipse
  * 测试代码
  * 切记！！！！
  * 多重修饰的时候，第二次以后的修饰者会冲掉之前修饰者对父类变量的赋值，两种方法;
@@ -60,8 +59,6 @@ public class StarbuzzCoffee {
 			System.out.println("beverage4: please select size!!!");
 		}else{
 			System.out.println(beverage4.getDescription() + " $" +nFormat.format(beverage4.cost()));
-		}
-						
+		}					
 	}
-
 }
